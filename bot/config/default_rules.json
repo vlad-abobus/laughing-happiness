@@ -1,0 +1,40 @@
+{
+  "community_rules_text": "<b>Правила сообщества</b>\n\n1. Уважайте участников.\n2. Без спама, флуда и оскорблений.\n3. NSFW и шок-контент запрещены.\n4. Ссылки только по согласованию с администрацией.",
+  "welcome": {
+    "enabled": true,
+    "parse_mode": "HTML",
+    "template": "Привет, {mention}! Рады видеть тебя в чате.\n\n{rules}"
+  },
+  "warning_templates": {
+    "spam": "⚠️ Обнаружен признак спама. Соблюдайте правила чата.",
+    "flood": "⚠️ Слишком много сообщений подряд (флуд). Замедлитесь.",
+    "toxicity": "⚠️ Сообщение может содержать токсичность. Общайтесь уважительно.",
+    "nsfw_text": "⚠️ Возможен неприемлемый контент (18+).",
+    "banned_word": "⚠️ Использование запрещённых слов не допускается.",
+    "link": "⚠️ Публикация ссылок в этом чате ограничена.",
+    "suspicious": "⚠️ Сообщение выглядит подозрительно. Переформулируйте.",
+    "nsfw_image": "⚠️ Изображение отклонено: возможен NSFW/18+ контент.",
+    "shock_image": "⚠️ Изображение отклонено: потенциально шокирующий контент.",
+    "symbols_image": "⚠️ На изображении обнаружены запрещённые символы.",
+    "suspicious_image": "⚠️ Изображение отклонено как подозрительное.",
+    "default": "⚠️ Нарушение правил сообщества."
+  },
+  "escalation": {
+    "warnings_before_mute": 3,
+    "warnings_before_ban": 6,
+    "mute_duration_seconds": 3600
+  },
+  "moderation": {
+    "enabled": true,
+    "banned_words": [],
+    "blocked_link_domains": [],
+    "allow_links_for_admins": true,
+    "flood_window_seconds": 8,
+    "flood_max_messages": 6,
+    "spam_min_repeated_char": 8,
+    "spam_caps_ratio": 0.75,
+    "spam_min_len_for_caps_check": 24,
+    "enable_ai_text_moderation": true,
+    "enable_ai_image_moderation": true
+  }
+}

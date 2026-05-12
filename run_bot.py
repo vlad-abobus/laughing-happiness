@@ -1,4 +1,4 @@
-"""Compatibility entrypoint for `python serverbot.py`."""
+"""Run the bot: `python run_bot.py` (requires `.env`)."""
 
 from bot.main import main
 

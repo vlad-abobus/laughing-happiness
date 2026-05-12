@@ -32,3 +32,13 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Python / bot
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+bot.db
+logs/
+status.txt
